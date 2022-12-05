@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/*header + navbar*/
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgb(216, 232, 236);
+    height: 70px;
+    padding:30px 0%;
+    font-weight: bold;
+
+}
+
+
+.navbar{
+   display: flex;
+     text-decoration: none;
+    padding: 10px;
+}
+a{
+    display:flex;
+    justify-items:flex-end;
+    text-decoration:none;
+    padding:15px;
+    margin: 20px;;
+   color:rgb(16, 7, 138);
+   
+}
+
+.presentation{
+    color: rgba(5, 24, 134, 0.733);
+    font-weight: large;
+    background-color: rgb(105, 173, 236);
+   border-radius: 2px;
+   width: 250px;
+   height: 70px 50px;
+}
+
+/*main body*/
+
+/*.hero-image{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.hero-text h1{
+    display:inline;
+    
+}*/
+.image-banner{
+
+    background-image: cover;
+    background-position:center;
+    
+    
+}
+
+.image-banner h2{
+    
+    color:red ;
+   
+    
+   
+   
+   
+    
+}
+ /*main body*/   
+  
+.page-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+ 
+ }                       
+    
+ 
+  #contact h2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: cont cont cont;
+
+
+  } 
+  h2 
+  p
+  .page-section-contact{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr;
+    grid-template-areas: cont cont;
+
+  } 
+   
